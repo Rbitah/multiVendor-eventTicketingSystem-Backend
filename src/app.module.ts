@@ -7,9 +7,18 @@ import { EventManagementModule } from './event-management/event-management.modul
 import { AuthenticationModule } from './authentication/authentication.module';
 import { UsersModule } from './users/users.module';
 import { MailModule } from './mail/mail.module';
+import { WithdrawalModule } from './withdrwal/withdrwal.module';
 
 @Module({
-  imports: [PaymentsModule, TicketManagementModule, EventManagementModule, AuthenticationModule, UsersModule, MailModule,],
+  imports: [
+    PaymentsModule,
+    TicketManagementModule,
+    EventManagementModule,
+    AuthenticationModule,
+    UsersModule,
+    MailModule,
+    WithdrawalModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

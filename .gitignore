@@ -3,6 +3,10 @@
 /node_modules
 /build
 
+
+#paychangu api 
+.api
+
 # Logs
 logs
 *.log
